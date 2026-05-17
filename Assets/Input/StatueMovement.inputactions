@@ -1,0 +1,77 @@
+{
+    "version": 1,
+    "name": "StatueMovement",
+    "maps": [
+        {
+            "name": "Actions",
+            "id": "ce4020ad-68df-4143-a969-f64d9bdc3e47",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "515e0dc7-3eab-4c31-aa2b-56a66ddcc533",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SplitAndMerge",
+                    "type": "Value",
+                    "id": "033f8cab-00ac-4899-8aba-c56b79ba0418",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "bba5ba95-4eea-405b-bc74-0e77aec67af8",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "8980d337-4d7b-4276-93f9-d8f80af2888e",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "ebaca2f1-1a76-40d4-9bf6-bfdf6a24b1e2",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "21cca27e-6d7f-41ab-ae05-dac6044ea822",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SplitAndMerge",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
